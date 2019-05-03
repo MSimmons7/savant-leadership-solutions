@@ -585,8 +585,8 @@ a,
 .navbar .navbar-nav > li > a.btn-danger.active, .open >
 .navbar .navbar-nav > li > a.btn-danger.dropdown-toggle {
   background-color: transparent;
-  color: #e47a80;
-  border-color: #e47a80;
+  color: #813454;
+  border-color: #813454;
 }
 .btn-danger:disabled, .btn-danger[disabled], .btn-danger.disabled,
 .navbar .navbar-nav > li > a.btn-danger:disabled,
@@ -608,7 +608,7 @@ a,
 .navbar .navbar-nav > li > a.btn-danger.btn-fill:active,
 .navbar .navbar-nav > li > a.btn-danger.btn-fill.active, .open >
 .navbar .navbar-nav > li > a.btn-danger.btn-fill.dropdown-toggle {
-  background-color: #e47a80;
+  background-color: #813454;
   color: #FFFFFF;
 }
 .btn-danger.btn-fill .caret,
@@ -1382,6 +1382,7 @@ a,
   padding-top: 15px;
   background-color: transparent;
   border-bottom: 1px solid transparent;
+  background-image: url(assets/img/logowhite.png);
 }
 
 .navbar-toggle {
