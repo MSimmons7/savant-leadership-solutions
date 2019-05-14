@@ -31,7 +31,7 @@
                     <span class="icon-bar bar2"></span>
                     <span class="icon-bar bar3"></span>
                 </button>
-                <a href="index.html" class="navbar-brand">
+                <a href="#" class="navbar-brand">
                     <!-- <img src="assets/img/logowhite.png" style="width:50px;height:40px;"> -->
                     Improving Minds, Improving Performance
                 </a>
@@ -241,7 +241,7 @@
                 </div>
 
                 <div class="button-get-started">
-                    <a href="contact.html" class="btn btn-danger btn-fill btn-lg">Contact Us</a>
+                    <a href="mailto:catherine@savantleadership.com" class="btn btn-danger btn-fill btn-lg">Contact Us</a>
                 </div>
             </div>
         </div>
