@@ -7,20 +7,20 @@ if($_POST) {
     $message = "";
      
     if(isset($_POST['name'])) {
-        $visitor_name = filter_var($_POST['visitor_name'], FILTER_SANITIZE_STRING);
+        $name = filter_var($_POST['visitor_name'], FILTER_SANITIZE_STRING);
     }
      
     if(isset($_POST['email'])) {
-        $visitor_email = str_replace(array("\r", "\n", "%0a", "%0d"), '', $_POST['visitor_email']);
-        $visitor_email = filter_var($visitor_email, FILTER_VALIDATE_EMAIL);
+        $email = str_replace(array("\r", "\n", "%0a", "%0d"), '', $_POST['email']);
+        $email = filter_var($email, FILTER_VALIDATE_EMAIL);
     }
      
     if(isset($_POST['company_name'])) {
-        $email_title = filter_var($_POST['email_title'], FILTER_SANITIZE_STRING);
+        $company_name = filter_var($_POST['company_name'], FILTER_SANITIZE_STRING);
     }
      
     if(isset($_POST['message'])) {
-        $visitor_message = htmlspecialchars($_POST['visitor_message']);
+        $message = htmlspecialchars($_POST['message']);
     }
     $recipient = 'msimmo19@lion.lmu.edu';
      
