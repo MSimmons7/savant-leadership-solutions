@@ -3747,7 +3747,7 @@ body {
 
 body{font-family:raleway;}	
 h1{margin:30px;}
-.contact-form{width:600px;margin:0 auto;}
+.contact-form{width:60%;margin:0 auto;}
 .contact-form .form-control{
 	border:none;
 	box-shadow:none;
