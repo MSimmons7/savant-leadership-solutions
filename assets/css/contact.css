@@ -1228,7 +1228,7 @@ a,
 .section-small .static-image .image,
 .section-get-started .parallax .image,
 .section-get-started .static-image .image {
-  height: 100vh !important;
+  height: 150vh !important;
 }
 
 .section-info {
@@ -1511,7 +1511,7 @@ a,
 .footer nav > ul {
   list-style: none;
   margin: 0;
-  padding: 0;
+  padding: 4;
   font-weight: normal;
 }
 .footer nav > ul a:not(.btn) {
@@ -3749,6 +3749,7 @@ body{font-family:raleway;}
 h1{margin:30px;}
 .contact-form{width:60%;margin:0 auto;}
 .contact-form .form-control{
+  background: transparent;
 	border:none;
 	box-shadow:none;
 	border-radius:0;
