@@ -3771,7 +3771,8 @@ h1{margin:30px;}
 	height:40px;
 	background-color:transparent;
 	transition: all 0.8s ease-out;
-	margin-top:40px;
+  margin-top:40px;
+  font-weight: 900;
 	}
 
 	.contact-form .send-msg:hover{
