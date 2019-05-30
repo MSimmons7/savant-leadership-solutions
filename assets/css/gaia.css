@@ -505,8 +505,8 @@ a,
   border-radius: 3px;
   font-size: 12px;
   line-height: 1.6em;
-  opacity: 0.8;
-  filter: alpha(opacity=80);
+  opacity: 1;
+  filter: alpha(opacity=100);
   padding: 10px 20px;
   border-color: #888888;
   color: #888888;
