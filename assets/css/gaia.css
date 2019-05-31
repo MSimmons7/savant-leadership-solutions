@@ -171,7 +171,7 @@ a:hover {
 }
 
 .text-gray {
-  color: #777777;
+  color: #000000;
 }
 
 .text-primary {
@@ -222,7 +222,7 @@ a:hover {
 }
 
 .separator {
-  color: #c5a47e;
+  color: #ffffff;
   margin: 0 auto 20px;
   max-width: 240px;
   text-align: center;
@@ -233,7 +233,7 @@ a:hover {
   width: 40%;
   content: " ";
   margin-top: 10px;
-  border: 1px solid #c5a47e;
+  border: 1px solid #ffffff;
 }
 .separator:before {
   float: left;
@@ -1099,7 +1099,7 @@ a,
   border-color: #FFFFFF;
 }
 .filter.filter-color-black:before {
-  background: #333;
+  background: #b0b1b2;
 }
 .filter.filter-color-gold:before {
   background: #bd986c;
